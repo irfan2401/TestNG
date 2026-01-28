@@ -6,7 +6,7 @@ import org.testng.ITestResult;
 
 public class Listeners implements ITestListener {
 
-    //For post actions we use listeners
+    //To perform post actions we use listeners
 //for example if i am running a class in that class multiple test methods are there.
 // from that some test methods may fail or some will pass or some will be skipped.
 // for each conditions pass or fail or skip i want to perform some further actions
